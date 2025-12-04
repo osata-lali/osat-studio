@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Rosa Bloom Photography</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Main Header & Navigation -->
+    <header class="main-header">
+        <div class="centered-nav container">
+            <!-- Navigation Links Left -->
+            <ul class="nav-left">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+
+            <!-- Logo -->
+            <div class="nav-logo">
+                <img src="images/logo.jpeg" alt="Rosa Bloom Logo" class="logo-img" 
+                     onerror="this.onerror=null; this.src='https://placehold.co/150x150/FF99AA/7A1F53?text=RB'">
+            </div>
+
+            <!-- Navigation Links Right -->
+            <ul class="nav-right">
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <!-- Contact link is active on this page -->
+                <li><a href="contact.html" class="active-link">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Hero Title -->
+        <section class="page-hero-title">
+            <div class="container">
+                <h1>Let's Start the Conversation</h1>
+                <h2>Whether you're planning a wedding or a portrait session, I'd love to hear your vision.</h2>
+            </div>
+        </section>
+
+        <!-- Contact Form and Details Section -->
+        <section class="contact-section">
+            <div class="container contact-grid">
+                
+                <!-- Contact Form Container -->
+                <div class="contact-form-container">
+                    <h3>Inquiry Form</h3>
+                    <p class="form-instructions">Please fill out the details below, and I will respond within 48 hours.</p>
+
+                    <form action="#" method="POST" class="contact-form">
+                        
+                        <div class="form-group">
+                            <label for="name">Your Full Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="Jane Doe">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required placeholder="jane.doe@example.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service of Interest *</label>
+                            <select id="service" name="service" required>
+                                <option value="" disabled selected>Select a Service</option>
+                                <option value="wedding">Wedding / Elopement</option>
+                                <option value="portrait">Family / Lifestyle Portrait</option>
+                                <option value="commercial">Commercial / Branding</option>
+                                <option value="other">Other Inquiry</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="date">Event Date (if applicable)</label>
+                            <input type="date" id="date" name="date">
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="message">Your Message *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Tell me about your special day or your vision for the shoot!"></textarea>
+                        </div>
+                        
+                        <!-- Submit Button styled as the primary CTA button -->
+                        <button type="submit" class="cta-button full-width">Send Inquiry</button>
+                    </form>
+                </div>
+
+                <!-- Contact Information and Map Placeholder -->
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>I am based in the heart of the city but love to travel. Let's connect directly.</p>
+
+                    <div class="info-details">
+                        <p><strong>Email:</strong> <a href="mailto:hello@osat studio.com">hello@osat studio.com</a></p>
+                        <p><strong>Phone:</strong> <a href="tel:+256712345670">+256734526650</a></p>
+                        <p><strong>Location:</strong> kansanga</p>
+                    </div>
+
+                    <div class="map-placeholder">
+                        <img src="images/map.jpg" alt="Location Map Placeholder" 
+                             onerror="this.onerror=null; this.src='https://placehold.co/400x300/FAB3C7/7A1F53?text=Map+Placeholder'">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 osat studio Photography. All Rights Reserved. | <a href="contact.html">Privacy Policy</a></p>
+            <div class="social-links">
+                <a href="#">Instagram</a> | 
+                <a href="#">Facebook</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

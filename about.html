@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | African Lenses</title>
+    <!-- Link to the shared stylesheet -->
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+
+    <!-- 
+        HEADER: Reusing the centered navigation and logo structure
+    -->
+    <header class="main-header">
+        <nav class="centered-nav">
+            <ul class="nav-left">
+                <li><a href="index.html">Home</a></li>
+                <!-- Highlight the active page -->
+                <li><a href="about.html" class="active-link">About</a></li> 
+            </ul>
+
+            <div class="nav-logo">
+                <!-- Using logo.jpeg as per the last shared HTML -->
+                <img src="images/logo.jpeg" alt="African Lenses Photography Logo" class="logo-img">
+            </div>
+
+            <ul class="nav-right">
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- 
+        MAIN CONTENT: About Page Sections
+    -->
+    <main>
+        
+        <!-- Hero Title Section (Simple but effective) -->
+        <section class="page-hero-title">
+            <div class="container">
+                <h1>Our Lens, Our Heritage</h1>
+                <h2>A story of documentation, culture, and connection in Africa.</h2>
+            </div>
+        </section>
+
+        <!-- 1. THE STORY: Two-column layout with photo -->
+        <section class="about-story-section">
+            <div class="container about-flex-container">
+                
+                <!-- Image of the Photographer/Studio -->
+                <div class="about-image">
+                    <img src="images/osit.jpg" 
+                         alt="Portrait of the Photographer"
+                         onerror="this.onerror=null; this.src='https://placehold.co/500x700/7A1F53/FFFFFF?text=The+Photographer';">
+                </div>
+
+                <!-- Biography Text -->
+                <div class="about-text">
+                    <h3>The Journey Begins in Gash-Barka</h3>
+                    <p>My name is osat, and my journey into photography began not in a studio, but under the vast, hot sun of the Gash-Barka region of Eritrea. Witnessing the vibrant life and enduring customs of the Kunama people—known for their deep connection to the land and their unique **Marda** (artistic) expressions—I realized the urgency of preservation.</p>
+                    
+                    <p><strong>Africa Lenses</strong> was founded with a singular purpose: to ethically document and celebrate the cultural narrative of communities often overlooked. We specialize in long-term documentary projects that capture not just the moment, but the historical context and the spiritual weight of Kunama traditions, like the annual harvest rituals and traditional wedding ceremonies.</p>
+                    
+                    <p>Our commitment goes beyond aesthetics; it is a promise to share a truthful, respectful, and visually stunning record of this irreplaceable heritage with the world.</p>
+                    
+                    <a href="contact.html" class="cta-button-secondary">Start a Conversation</a>
+                </div>
+
+            </div>
+        </section>
+        
+        <!-- 2. CORE VALUES/MISSION -->
+        <section class="core-values">
+            <div class="container">
+                <h3>Our Foundational Pillars</h3>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <span class="icon">📸</span>
+                        <h4>Documentation</h4>
+                        <p>A commitment to archival-quality imagery that serves as a visual history for future generations.</p>
+                    </div>
+                    <div class="value-card">
+                        <span class="icon">🧡</span>
+                        <h4>Respect</h4>
+                        <p>Working closely with African community leaders to ensure all photographs honor their privacy and traditions.</p>
+                    </div>
+                    <div class="value-card">
+                        <span class="icon">✨</span>
+                        <h4>Excellence</h4>
+                        <p>Utilizing high-end professional equipment and post-production techniques to deliver stunning results.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. TESTIMONIAL BLOCK -->
+        <section class="testimonial-block">
+            <div class="container">
+                <p class="quote-text">"Working with African Lenses was an experience in respect and artistry. They didn't just take pictures; they wove a narrative that captured the very soul of our village ceremony. A true dedication to our culture."</p>
+                <p class="quote-source">— Elder G. Samuel, Africa Community Spokesperson</p>
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- 
+        FOOTER: Reusing the standard footer structure
+    -->
+    <footer class="site-footer">
+        <p>&copy; 2025 Osat Studio  . Preserving Heritage. All Rights Reserved.</p>
+        <div class="social-links">
+            <a href="#">Instagram</a> | <a href="#">Facebook</a>
+        </div>
+    </footer>
+
+</body>
+</html>
